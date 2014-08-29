@@ -60,8 +60,20 @@ namespace AzusaTxtInp
                 return;
             }
 
-            Console.WriteLine("GetAzusaPid()");
-            AZUSAPid = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < RETRY; i++)
+            {
+                Console.WriteLine("GetAzusaPid()");
+                try
+                {
+                    AZUSAPid = Convert.ToInt32(Console.ReadLine());
+                    break;
+                }
+                catch
+                {
+                }
+            }
+
+            if (AZUSAPid == -1) { Console.WriteLine("ERR(Cannot get Azusa PID [TxtInp])"); }
 
             Console.WriteLine("RegisterAs(Input)");
 
