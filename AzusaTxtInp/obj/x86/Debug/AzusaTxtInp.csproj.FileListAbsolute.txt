@@ -1,0 +1,10 @@
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.csprojResolveAssemblyReference.cache
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.Form1.resources
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.Properties.Resources.resources
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.csproj.GenerateResource.Cache
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\AzusaTxtInp.exe
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\AzusaTxtInp.pdb
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\clrzmq.dll
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.exe
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.pdb
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\AzusaTxtInp.exe.config
