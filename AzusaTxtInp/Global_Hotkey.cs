@@ -41,6 +41,7 @@ namespace AzusaTxtInp
                 {
                     this.Show();
                     this.Activate();
+                    this.WindowState = FormWindowState.Normal;
                     textBox1.Text = "";
                     textBox1.Focus();
                 }                
