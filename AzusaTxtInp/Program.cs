@@ -4,7 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Text;
 using System.Threading;
-using ZMQ;
+using ZeroMQ;
 
 namespace AzusaTxtInp
 {
@@ -20,14 +20,14 @@ namespace AzusaTxtInp
 
         //這個是預設的端口
         //如果已被佔用會換成別的端口
-        static int DEFAULT_PORT = 2525;        
+        static int DEFAULT_PORT = 62525;        
 
     
 
         //這是引擎的初始化的部分,如果成功請返回 true, 如果失敗請返回 false
         static bool Initialize()
-        {           
-
+        {
+            
             return true;
         }
 
@@ -37,9 +37,12 @@ namespace AzusaTxtInp
         //請返回需要向 AI 發佈的消息
         static string GetInput()
         {
-            string tmp = Shared.msg;
-            Shared.msg = "";
-            return tmp;
+            if (Shared.msg.Count > 0)
+            {
+                return Shared.msg.Dequeue();
+            }
+
+            return "";
         }
 
         //接下來是處理與 AZUSA 和其他引擎溝通的部分, 一般不需要改動
@@ -78,8 +81,8 @@ namespace AzusaTxtInp
             Console.WriteLine("RegisterAs(Input)");
 
             //創建 zmq PUB 端口
-            using (Context ctx = new Context())
-            using (Socket server = ctx.Socket(SocketType.PUB))
+            using (ZmqContext ctx = ZmqContext.Create())
+            using (ZmqSocket server = ctx.CreateSocket(SocketType.PUB))
             {
                 //記錄是否已成功創建
                 bool SUCCES = false;
@@ -164,9 +167,11 @@ namespace AzusaTxtInp
         {
             //先向 AZUSA 提取所有已登記的端口
             Console.WriteLine("GetAllPorts()");
+                        
+            string resp=Console.ReadLine();           
 
             //進行解析
-            string[] busyPorts = Console.ReadLine().Split(',');
+            string[] busyPorts = resp.Split(',');
 
             //暫存可使用的端口, 設為預設值
             int PORT = DEFAULT_PORT;

@@ -7,7 +7,7 @@ namespace AzusaTxtInp
 {
     static class Shared
     {
-        static public string msg = "";
-        
+        static public Queue<string> msg = new Queue<string>();
+        static public int pumping = 10;
     }
 }

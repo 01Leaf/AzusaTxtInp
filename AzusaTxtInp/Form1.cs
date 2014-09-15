@@ -16,15 +16,15 @@ namespace AzusaTxtInp
             InitializeComponent();
             //configurate global hotkeys
             int id = 0;     // The id of shift space 
-            RegisterHotKey(this.Handle, id, (int)KeyModifier.Shift, Keys.Space.GetHashCode());   
-       
+            RegisterHotKey(this.Handle, id, (int)KeyModifier.Shift, Keys.Space.GetHashCode());
+
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                Shared.msg = textBox1.Text;
+                Shared.msg.Enqueue( textBox1.Text);
                 textBox1.Text = "";
                 this.Hide();
 
@@ -38,8 +38,8 @@ namespace AzusaTxtInp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-        } 
+
+        }
 
 
     }

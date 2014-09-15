@@ -39,6 +39,7 @@ namespace AzusaTxtInp
 
                 if (id == 0)  //shift space
                 {
+                    Console.WriteLine("TXTSHOW");
                     this.Show();
                     this.Activate();
                     this.WindowState = FormWindowState.Normal;
