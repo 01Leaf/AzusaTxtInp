@@ -154,6 +154,8 @@ namespace AzusaTxtInp
                         server.Send(msg, Encoding.UTF8);
                     }
 
+                    Thread.Sleep(160);
+
                 }
             }
 
@@ -208,6 +210,7 @@ namespace AzusaTxtInp
         [STAThread]
         static void Main()
         {
+
             ZMQServer = new Thread(new ThreadStart(PostToZMQ));
             ZMQServer.Start();
 
