@@ -39,7 +39,8 @@ namespace AzusaTxtInp
 
                 if (id == 0)  //shift space
                 {
-                    Console.WriteLine("BROADCAST(TXTSHOW)");
+                    Console.WriteLine("EVENT(TXTSHOW)");
+                    this.Height = textBox1.PreferredHeight;
                     this.Show();
                     this.Activate();
                     this.WindowState = FormWindowState.Normal;

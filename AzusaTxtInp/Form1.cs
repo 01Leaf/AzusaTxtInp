@@ -17,6 +17,7 @@ namespace AzusaTxtInp
             //configurate global hotkeys
             int id = 0;     // The id of shift space 
             RegisterHotKey(this.Handle, id, (int)KeyModifier.Shift, Keys.Space.GetHashCode());
+           
 
         }
 
@@ -24,7 +25,7 @@ namespace AzusaTxtInp
         {
             if (e.KeyCode == Keys.Enter)
             {
-                Shared.msg.Enqueue( textBox1.Text);
+                Console.WriteLine("INPUT(\""+ textBox1.Text+"\")");
                 textBox1.Text = "";
                 this.Hide();
 

@@ -4,9 +4,6 @@ C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.
 C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.csproj.GenerateResource.Cache
 C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\AzusaTxtInp.exe
 C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\AzusaTxtInp.pdb
-C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\clrzmq.dll
 C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.exe
 C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Debug\AzusaTxtInp.pdb
 C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\AzusaTxtInp.exe.config
-C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\clrzmq.pdb
-C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Debug\clrzmq.xml
