@@ -25,7 +25,7 @@ namespace AzusaTxtInp
         {
             if (e.KeyCode == Keys.Enter)
             {
-                Console.WriteLine("INPUT(\""+ textBox1.Text+"\")");
+                Console.WriteLine("INPUT(\""+ System.Web.HttpUtility.UrlEncode(textBox1.Text)+"\")");
                 textBox1.Text = "";
                 this.Hide();
 

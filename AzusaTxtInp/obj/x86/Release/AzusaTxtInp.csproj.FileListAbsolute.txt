@@ -1,0 +1,8 @@
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Release\AzusaTxtInp.exe.config
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Release\AzusaTxtInp.exe
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\bin\Release\AzusaTxtInp.pdb
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Release\AzusaTxtInp.Form1.resources
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Release\AzusaTxtInp.Properties.Resources.resources
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Release\AzusaTxtInp.csproj.GenerateResource.Cache
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Release\AzusaTxtInp.exe
+C:\Users\ytc\Documents\GitHub\AzusaTxtInp\AzusaTxtInp\obj\x86\Release\AzusaTxtInp.pdb
